@@ -9,6 +9,13 @@ output: html_document
 Link to repo:
 <https://github.com/sarstanc/DV_TableauProject3>
 
+```{r}
+library("rjson")
+library("RCurl")
+require(tidyr)
+require(dplyr) 
+```
+
 ###Blending APD Incidents
 ```{r, warning=FALSE}
 source("../01_Data/visualization.R", echo=TRUE)
